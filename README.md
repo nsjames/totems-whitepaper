@@ -1,5 +1,8 @@
 # Totems – Whitepaper
 
+I would love feedback on this!
+Feel free to open issues here, or join the [Telegram](https://t.me/totemize) group to discuss.
+
 ## Abstract
 
 Totems is a blockchain-agnostic modular token standard that unlocks creators to 
@@ -89,8 +92,6 @@ maintenance of these features.
   the tokens instead of giving power to creators, and lacks a marketplace or monetization model for developers.
 - [EIP-1363](https://eips.ethereum.org/EIPS/eip-1363) introduces a form of callbacks, but is limited to only transfers 
   and does not provide a full lifecycle hook system or extensibility model.
-
-
 
 There are many more attempts, but they all share similar limitations: they are either too rigid,
 too complex, too focused, or lack a sustainable economic model for developers and/or centralize control over features.
@@ -555,9 +556,8 @@ The Totems codebase is open source. Brand names, logos, and trademarks are prope
 - Mod developers building ecosystem tools
 - Documentation contributors
 
-**Contact:**
+**Links:**
 - Website: https://totems.fun
-- Telegram: https://t.me/totemize
 - GitHub: https://github.com/nsjames/totems
 
 **Acknowledgments:**
