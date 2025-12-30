@@ -37,7 +37,6 @@ flowchart LR
   Burn["Burn"]
 
 %% External Mods (Contracts)
-  BondingCurve["Bonding Curve"]
   Miner["Miner"]
   Airdrop["Airdrop"]
 
@@ -54,9 +53,8 @@ flowchart LR
   Token --> Burn
 
 %% Mint mods
-  Mint --> BondingCurve
-  Mint --> Miner
-  Mint --> Airdrop
+  Mint -->|80%| Miner
+  Mint -->|20%| Airdrop
 
 %% Transfer mods
   Transfer --> KYC
